@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(49, 49, 49);
+}
+header{
+    background-color: rgb(14, 14, 14);
+    padding: 20px;
+    border-bottom: 8px solid rgb(255, 23, 23);
+}
+
+header h1{
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.links{
+    margin-right: 50px;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 555;
+    float: right;
+    padding: 0 30px;
+    margin-top: 10px;
+}
+
+.links a:hover{
+    color: rgb(248, 47, 47);
+    transition: color 0.3s;
+}
+
+.container{
+    min-height: 80vh;
+    padding: 40px;
+    margin: 0 80px;
+}
+
+.container-filmes{
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 80px;
+    margin-left: 28px;
+}
+
+.card{
+    display: inline-block;
+    width: 265px;
+    padding: 0 30px;
+    margin-bottom: 75px;
+}
+
+.poster{
+    height: 285px;
+    width: 200px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#img-1{
+    background-image: url(../img/img-1.jpg);
+}
+
+#img-2{
+    background-image: url(../img/img-2.jpg);
+}
+
+#img-3{
+    background-image: url(../img/img-3.jpg);
+}
+
+#img-4{
+    background-image: url(../img/img-4.jpg);
+}
+
+#img-5{
+    background-image: url(../img/img-5.jpg);
+}
+
+#img-6{
+    background-image: url(../img/img-6.jpg);
+}
+
+#img-7{
+    background-image: url(../img/img-7.jpg);
+}
+
+#img-8{
+    background-image: url(../img/img-8.jpg);
+}
+
+
+/*hover das imagens*/
+#img-1:hover{
+    width: 208px;
+}
+
+#img-2:hover{
+    width: 208px;
+}
+
+#img-3:hover{
+    width: 208px;
+}
+
+#img-4:hover{
+    width: 207px;
+}
+
+#img-5:hover{
+    width: 208px;
+}
+
+#img-6:hover{
+    width: 208px;
+}
+
+#img-7:hover{
+    width: 208px;
+}
+
+#img-8:hover{
+    width: 208px;
+}
+
+.card h3{
+    text-align: center;
+    color: rgb(237, 237, 237);
+    margin-bottom: 10px;
+    border-bottom: 3px solid rgb(255, 25, 25);
+}
+.card p{
+    color: rgb(255, 255, 255);
+    font-weight: 555;
+    text-align: center;
+}
+
+.btn{
+    background-color: rgb(202, 26, 26);
+    width: 140px;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(255, 36, 36);
+    transition: background 0.3s;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer{
+    background-color: rgb(14, 14, 14);
+    padding: 20px;
+    text-align: center;
+    border-top: 5px solid rgb(255, 23, 23);
+    margin-top: 35px;
+}
+
+footer span{
+    color: white;
+    font-weight: 555;
+    font-size: 12px;
+}
+
