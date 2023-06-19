@@ -1,6 +1,6 @@
 # cine-movie
 
-um projeto de site de filmes
+um projeto de site de filmes, por enquanto esse é só o layout e design.
 
 ## Linguagens
 
